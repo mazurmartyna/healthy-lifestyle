@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
+
 <body>
-    
+    <h1>Health Tips Newsletter</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">email address:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label>Confirm that you want to receive the newsletter and agree to any terms or privacy policies:</label><br>
+        <input type="radio" id="yes" name="choice" value="yes">
+        <label for="yes">yes</label><br>
+        <input type="radio" id="no" name="choice" value="no">
+        <label for="no">no</label><br><br>
+
+
+        <label for="notes">Do you have any suggestions for our page? Let us know!:</label><br>
+        <textarea id="notes" name="notes" rows="4" cols="50">
+        </textarea><br><br>
+        
+        <button type="button">Submit</button>
+        <button type="button">Cancel</button>
+
+    </form>
+
 </body>
 </html>
